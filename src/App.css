@@ -6,6 +6,14 @@
   height: 40vmin;
   pointer-events: none;
 }
+@font-face {
+  font-family: myFirstFont;
+  src: url(./assets/FacttoriaScript_PERSONAL_USE_ONLY.woff);
+}
+.navbar-brand {
+  font-family:myFirstFont;
+  font-size: 35px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
