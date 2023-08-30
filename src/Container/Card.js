@@ -27,7 +27,9 @@ const Card = () => {
                                         <div className="card-body">
                                             <h5 className="card-title">{item.name}</h5>
                                             <p className="card-text">Rs.{item.prize}</p>
-                                        <button className='btn btn-primary'>Order</button>
+                                        <button className='btn btn-primary'>Order Now</button>
+                                        {/* <button className='btn btn-primary'>Order Now</button>
+                                        <button className='btn btn-primary'>Order Now</button> */}
                                         </div>
                                     </div>
                                 </div>
